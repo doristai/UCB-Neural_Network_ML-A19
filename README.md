@@ -56,6 +56,10 @@ Appying neural network for Charity Organisation Analysis
       - unbinning certain values by lowering the threshold to 700 for both ["APPLICATION_TYPE"] and ["CLASSIFICATION"]
       - Accuracy : ~73% 
 
+## Summary
 
+- Increasing the parameters for taining or training epochs do not have a huge effect on the accuracy. 
+
+- Other methods need to be implemented to obtain a higher accuracy for model prediction. 
 
 
