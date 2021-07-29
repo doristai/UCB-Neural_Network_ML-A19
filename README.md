@@ -37,3 +37,25 @@ Appying neural network for Charity Organisation Analysis
 
 ## Compiling, Training, and Evaluating
 
+- Initial Model: 
+      - 2 layers 
+            - 1st with 80 neurons 
+            - 2nd with 45 neurons 
+                  - Gives 6,891 total and trainable parameters 
+                  - Applied "relu" activation function for both layers
+                  - Applied "sigmoid" activaiton function for the output layer 
+      - Accuracy : 72.6%
+
+- Additional 3 Optimisation Models: 
+      - Binned ["INCOME_AMT"] > $5M into a "5M+" bin.
+      - Added a 3rd hidden layer.
+      - Increased the total number of training parameters to 9,411. 
+      - Increased training epochs from 100 to 150, then to 300. 
+      - Applied both "adamax" and "nadam" optimisers when compiling the model.
+      - Used "tanh" activation functions on the hidden layers. 
+      - unbinning certain values by lowering the threshold to 700 for both ["APPLICATION_TYPE"] and ["CLASSIFICATION"]
+      - Accuracy : ~73% 
+
+
+
+
